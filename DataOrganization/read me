@@ -1,0 +1,9 @@
+This folder contains the MATLAB scripts that have been used to re-organize the data in order to be used for training the LRCN model.
+
+There are two main functions performed by these files are:
+
+- gatherDataset.m: Get information about all the video files, divide the data into training, test and validation sets and save the three types of files paths as text files.
+
+- renamingFiles.m: Rename all the files in a particular set of dirctories. The reason to rewrite the file names is that the video files were named randomly and some characters were included in the file names which were not recognized by the LUA environment.
+
+In order to use these files, run the script based on the infomation above. writeData.m is essential only to write teh file names on the text files. getDirListing.m is essential to run both scripts.
